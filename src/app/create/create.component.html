@@ -1,0 +1,37 @@
+<h1>Create movie</h1>
+<form #form="ngForm" (ngSubmit)="CreateMovie(form)">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input required #name="ngModel" type="text" class="form-control" [(ngModel)]="movie.name"
+          name="title">
+        <div class="alert alert-danger" *ngIf="name.invalid && name.touched">
+          <p *ngIf="name?.errors?.['required']">Required</p>
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+      <label for="rating" class="form-label">Rating</label>
+      <input required #rating2 (change)="rangevalidator(rating,rating2)" #rating="ngModel" name="rating" type="text"
+        [(ngModel)]="movie.ratings"
+        class="form-control">
+      <div class="alert alert-danger" *ngIf="(rating.invalid && rating.touched)">
+        <p *ngIf="rating?.errors?.['required']">Required</p>
+        <p>{{errormsg}}</p>
+      </div>
+
+    
+    </div>
+
+
+    <div class="mb-3">
+      <label for="imageUrl" class="form-label">imageUrl</label>
+      <input #img2 (change)="check(img2,img)" required #img="ngModel" name="img" type="text" class="form-control" [(ngModel)]="movie.cover">
+      <div class="alert alert-danger" *ngIf="(img.invalid && img.touched)">
+        <p *ngIf="img?.errors?.['required']">Required</p>
+        <p>{{errormsg2}}</p>
+      </div>
+    </div>
+    <button [disabled]="form.invalid" type="submit" class="btn btn-primary">Create</button>
+</form>
+

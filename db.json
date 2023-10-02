@@ -1,0 +1,172 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Top Gun",
+      "cover": "img1.jpg",
+      "ratings": "7.15",
+      "reviews": [
+        {
+          "author": "james",
+          "published_on": "13 october 2004"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Morbius",
+      "cover": "img2.jpg",
+      "ratings": "6.75",
+      "reviews": [
+        {
+          "author": "Haidar Mukhtarli",
+          "published_on": "2 october 2004"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Man of Steel",
+      "cover": "img3.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "Wonder woman",
+      "cover": "img4.jpg",
+      "ratings": "6.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "Breaking Bad",
+      "cover": "img6.webp",
+      "ratings": "9.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "Game of Thrones",
+      "cover": "img7.jpg",
+      "ratings": "8.85",
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "Black Adam",
+      "cover": "img8.jpg",
+      "ratings": "7.9",
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "name": "Avatar",
+      "cover": "img15.jpg",
+      "ratings": "9",
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Avatar",
+      "cover": "img15.jpg",
+      "ratings": "9",
+      "reviews": []
+    }
+  ],
+  "theatre": [
+    {
+      "id": 1,
+      "name": "No Way Home",
+      "cover": "img9.jpg",
+      "ratings": "7.15",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "Venom",
+      "cover": "img10.jpg",
+      "ratings": "6.75",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "Thor:love and thunder",
+      "cover": "img11.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "Godfather",
+      "cover": "img12.jpg",
+      "ratings": "8.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "Scarface",
+      "cover": "img13.jpg",
+      "ratings": "5.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "Legend",
+      "cover": "img14.jpg",
+      "ratings": "7.85",
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "Avatar",
+      "cover": "img15.jpg",
+      "ratings": "8.85",
+      "reviews": []
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "name": " The Shawshank Redemption",
+      "cover": "img1.jpg",
+      "ratings": "9.3",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "Schindler's List",
+      "cover": "img2.jpg",
+      "ratings": "6.75",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "Casablanca",
+      "cover": "img3.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "Citizen Kane",
+      "cover": "img4.jpg",
+      "ratings": "8.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": " Gone with the Wind",
+      "cover": "img1.jpg",
+      "ratings": "5.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "The Wizard of Oz",
+      "cover": "img2.jpg",
+      "ratings": "7.85",
+      "reviews": []
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "film1 name",
+      "cover": "img1.jpg",
+      "ratings": "7.15",
+      "reviews": [
+        {
+          "author": "james",
+          "published_on": "13 october 2004"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "film2 name",
+      "cover": "img2.jpg",
+      "ratings": "6.75",
+      "reviews": [
+        {
+          "author": "Haidar Mukhtarli",
+          "published_on": "2 october 2004"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "film3 name",
+      "cover": "img3.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "film4 name",
+      "cover": "img4.jpg",
+      "ratings": "8.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "film5 name",
+      "cover": "img1.jpg",
+      "ratings": "5.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "film6 name",
+      "cover": "img2.jpg",
+      "ratings": "5.85",
+      "reviews": []
+    },
+    {
+      "id": "7",
+      "name": "",
+      "cover": "",
+      "ratings": "",
+      "reviews": [
+        {
+          "author": "name"
+        }
+      ]
+    }
+  ],
+  "theatre": [
+    {
+      "id": 1,
+      "name": "film1 name",
+      "cover": "img1.jpg",
+      "ratings": "7.15",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "film2 name",
+      "cover": "img2.jpg",
+      "ratings": "6.75",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "film3 name",
+      "cover": "img3.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "film4 name",
+      "cover": "img4.jpg",
+      "ratings": "8.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "film5 name",
+      "cover": "img1.jpg",
+      "ratings": "5.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "film6 name",
+      "cover": "img2.jpg",
+      "ratings": "7.85",
+      "reviews": []
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "name": "film1 name",
+      "cover": "img1.jpg",
+      "ratings": "7.15",
+      "reviews": []
+    },
+    {
+      "id": 2,
+      "name": "film2 name",
+      "cover": "img2.jpg",
+      "ratings": "6.75",
+      "reviews": []
+    },
+    {
+      "id": 3,
+      "name": "film3 name",
+      "cover": "img3.jpg",
+      "ratings": "8.15",
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "film4 name",
+      "cover": "img4.jpg",
+      "ratings": "8.45",
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "film5 name",
+      "cover": "img1.jpg",
+      "ratings": "5.14",
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "film6 name",
+      "cover": "img2.jpg",
+      "ratings": "7.85",
+      "reviews": []
+    }
+  ]
+}

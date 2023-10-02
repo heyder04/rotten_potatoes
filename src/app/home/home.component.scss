@@ -1,0 +1,203 @@
+.home-container{
+    display: flex;
+
+}
+.all-movies{
+    width: 77%;
+    // min-height: calc(100vh - 80px);
+    border-right: 1px solid #fdc827;
+    padding: 20px 40px;
+    font-family: "Roboto",sans-serif;
+}
+.popular-movies{
+    padding-left: 20px !important;
+    width: 23%;
+    // min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family: "Roboto",sans-serif;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h4{
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #ff9900;
+    padding-left: 10px;
+}
+.view-all{
+    color: #ff9900;
+    cursor: pointer;
+}
+.movies-thumbnail{
+
+  display: flex;
+  justify-content: flex-start;
+}
+.cover img{
+    border-radius: 5px;
+    width: 100%;
+    height: 220px;
+
+}
+.cover img:hover{
+    cursor: pointer;
+}
+.detail{
+    width: 180px;
+}
+.name{
+    width: 140px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 25px;
+   overflow: hidden;
+}
+.rating{
+
+    padding-right: 15px;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+// .col-2{
+//     margin-right: 10px;
+
+// }
+.rating-value{
+    position: absolute;
+    top: 2px;
+    right: 8px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.rating.popular{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.app-star-rating{
+    margin-right: 30px;
+}
+.trending-movies{
+    margin-bottom: 20px;
+}
+.movies .movie{
+    width: 310px;
+    margin-bottom: 10px;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+.movies .rating{
+    margin-top: 12px;
+}
+
+.movies .view-all{
+    color: #ff9900;
+    text-align: right;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#copyright{
+    text-align: center;
+    color: rgb(23, 22, 22);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    // margin-bottom: -70px;
+    font: 200 0.8em Lato, sans-serif;
+    b{
+        font-weight: bold;
+    }
+}
+.footer{
+    margin-top: 30px;
+
+
+    background-color: rgba(218, 214, 214, 0.775);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.envelope svg{
+    width: 25px;
+    margin-right: 10px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    h5{
+        margin-bottom: 0px;
+    }
+
+}
+.box2 svg{
+  width: 25px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+.box2{
+    display: flex;
+}
+.fours  a {
+ text-decoration: none;
+ color: rgb(77, 70, 70);
+ font-size: 16px;
+ font-weight: 600;
+ transition: 0.3s;
+}
+.fours  a:hover{
+    font-size: 18px;
+    color: rgb(6, 6, 6);
+}
+.fours .col-3{
+    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+//   align-items: center;
+padding-left: 50px;
+  color: rgb(77, 70, 70);
+}
+.footer{
+    padding: 10px;
+    padding-top: 30px;
+    padding-left: 40px;
+    width: 100%;
+    margin-inline:auto ;
+    margin-top: 50px;
+}
+.box3 p{
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.box3 button {
+    width: 65%;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fourth p{
+    font-weight: 700;
+    font-size: 16px;
+}
+.fourth{
+    padding-left: 90px !important;
+}
+.box2 a  svg:hover{
+    width: 30px;
+}
+
